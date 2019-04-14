@@ -1,0 +1,18 @@
+.cmn-frame {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-style: ridge;
+    z-index: 2147483647;
+}
+
+.cmn-frame-opened {
+    width: 320px;
+    height: 296px;
+}
+
+.cmn-frame-closed {
+    width: 320px;
+    height: 56px;
+}

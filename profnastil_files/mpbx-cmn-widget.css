@@ -1,0 +1,206 @@
+.cmn {
+  font-family: 'Arial', "Helvetica CY", "Nimbus Sans L", sans-serif;
+  font-size: 17px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.cmn > div:nth-child(1) {
+    width: 90%;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cmn > div:nth-child(1) > div, .cmn > div:nth-child(1) > a {
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+div {
+    display: inline-block;
+}
+
+.cmn-closed {
+    cursor: pointer;
+}
+
+.callLogo {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+}
+
+.cmn-theme-1 > div > .callLogo {
+    background-image: url('img/call_black.png');
+}
+
+.cmn-closed.cmn-theme-1:hover > div > .callLogo {
+    background-image: url('img/call_white.png');
+}
+
+.cmn-theme-2 > div > .callLogo {
+    background-image: url('img/call_white.png');
+}
+
+.cmn-closed:hover.cmn-theme-2.cmn-color-6 > div > .callLogo {
+    background-image: url('img/call_black.png');
+}
+
+.closeLogo {
+    width: 18px;
+    height: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.cmn-theme-1 > div > .closeLogo {
+    background-image: url('img/close_black.png');
+}
+
+.cmn-closed.cmn-theme-1:hover > div > .closeLogo {
+    background-image: url('img/close_white.png');
+}
+
+.cmn-theme-2 > div > .closeLogo {
+    background-image: url('img/close_white.png');
+}
+
+.cmn-closed:hover.cmn-theme-2.cmn-color-6 > div > .closeLogo {
+    background-image: url('img/close_black.png');
+}
+
+.hideLogo {
+    width: 18px;
+    height: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.cmn-theme-1 > div > .hideLogo {
+    background-image: url('img/hide_black.png');
+}
+
+.cmn-theme-2 > div > .hideLogo {
+    background-image: url('img/hide_white.png');
+}
+
+.cmn.cmn-theme-1 {
+    background-color: #ffffff;
+    color: #252525;
+}
+
+.cmn-closed:hover.cmn-theme-1 {
+    color: #ffffff;
+}
+
+.cmn.cmn-theme-2 {
+    background-color: #404040;
+    color: #ffffff;
+}
+
+.cmn-closed:hover.cmn-color-1 {
+    background-color: #329c52;
+}
+
+.cmn-color-1 .callButton {
+    background-color: #329c52;
+}
+
+.cmn-closed:hover.cmn-color-2 {
+    background-color: #f95146;
+}
+
+.cmn-color-2 .callButton {
+    background-color: #f95146;
+}
+
+.cmn-closed:hover.cmn-color-3 {
+    background-color: #f4902e;
+}
+
+.cmn-color-3 .callButton {
+    background-color: #f4902e;
+}
+
+.cmn-closed:hover.cmn-color-4 {
+    background-color: #4ba7d8;
+}
+
+.cmn-color-4 .callButton {
+    background-color: #4ba7d8;
+}
+
+.cmn-closed:hover.cmn-color-5 {
+    background-color: #995ba8;
+}
+
+.cmn-color-5 .callButton {
+    background-color: #995ba8;
+}
+
+.cmn-closed:hover.cmn-theme-1.cmn-color-6 {
+    background-color: #404040;
+}
+
+.cmn-theme-1.cmn-color-6 .callButton {
+    background-color: #404040;
+}
+
+.cmn-closed:hover.cmn-theme-2.cmn-color-6 {
+    background-color: #ffffff;
+    color: #252525;
+}
+
+.cmn-theme-2.cmn-color-6 .callButton {
+    background-color: #ffffff;
+    color: #252525;
+}
+
+.cmn > div:nth-child(2){
+    margin-bottom: 7px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.cmn > div:nth-child(2) > div{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.numberInput {
+    font-size: 15px;
+    width: 207px;
+    height: 34px;
+}
+
+.callButton {
+    width: 138px;
+    height: 36px;
+    border-style: none;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.callButton:hover {
+    border-style: outset;
+}
+
+.errorMessage {
+    color: red;
+}
+
+.cmn > div:nth-child(3), .cmn > div:nth-child(4){
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
